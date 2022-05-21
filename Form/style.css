@@ -1,0 +1,78 @@
+.form{
+    width: 400px;
+    min-height: 500px;
+    padding-left: 20px;
+    margin: 0 auto;
+    box-shadow: 0 0 10px gray;
+}
+
+h1{
+    text-align: center;
+    padding: 10px;
+}
+
+label{
+    font-size: 19px;
+}
+
+/* text section style */
+input[type=text]{
+    border: none;
+    border-bottom: 1px solid lightgray;
+    width: 160px;
+    padding: 3px;
+}
+
+/* input fname section style */
+input[name=fname]{
+    margin-right: 30px;
+}
+
+/* email section style */
+input[type=email]{
+    border: none;
+    border-bottom: 1px solid lightgray;
+    width: 360px;
+    padding: 3px;
+}
+
+/* password section style */
+input[type=password]{
+    border: none;
+    border-bottom: 1px solid lightgray;
+    width: 360px;
+    padding: 3px;
+}
+
+/* date setion style */
+input[type=date]{
+    width: 120px;
+    padding: 3px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+select{
+    width: 120px;
+    padding: 3px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+/* textarea style */
+textarea{
+    border: 1px solid black;
+}
+
+/* submit button style */
+input[type=submit]{
+    width: 380px;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: darkblue;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 10px;
+}

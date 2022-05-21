@@ -1,0 +1,42 @@
+body{
+    width: 95%;
+    margin: 0 auto 5px;
+}
+.head{
+    background-color: darkcyan;
+    line-height: 22px;
+}
+.head h1{
+    text-align: center;
+    color: white;
+}
+.head .link{
+    text-align: center;
+}
+.link a{
+    color: white;
+    margin-right: 5px;
+}
+
+h2{
+    text-align: center;
+}
+img{
+    height: 200px;
+}
+
+.foot{
+    background-color: darkcyan;
+    line-height: 22px;
+}
+.foot h2{
+    text-align: start;
+    color: white;
+}
+.foot .link{
+    text-align: center;
+}
+.link a{
+    color: white;
+    margin-right: 5px;
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="form">
+        <h1>Sign UP</h1>
+
+        <Form>
+            <label for="name"><b>Name*</b></label><br><br>
+                <input type="text" name="fname" placeholder="First Name">
+                <input type="text" name="lname" placeholder="Last name">
+            <br><br>
+
+            <label for="email"><b>Email Address*</b></label><br><br>
+                <input type="email" name="email" placeholder="example@gmail.com">
+            <br><br>
+
+            <label for="password"><b>Password*</b></label><br><br>
+                <input type="password" name="password">
+            <br><br>
+
+            <label for="confirm_pass"><b>Confirm Password*</b></label><br><br>
+                <input type="password" name="confirm_pass">
+            <br><br>
+
+            <label for="birth"><b>Date of Birth*</b></label><br><br>
+                <input type="date" name="birth">
+            <br><br>
+
+            <label for="gender"><b>Gender*</b></label><br><br>
+                <input type="radio" name="gender" value="male" id="M">
+                <label for="M">Male</label>
+                <input type="radio" name="gender" value="female" id="F">
+                <label for="F">Female</label>
+                <input type="radio" name="gender" value="male" id="O">
+                <label for="O">Other</label>
+            <br><br>
+
+            <label for="lang"><b>Language Known</b></label><br><br>
+                <input type="checkbox" name="lang" id="react" checked>
+                <label for="react">React</label>
+                <input type="checkbox" name="lang" id="angular">
+                <label for="angular">Angular</label>
+                <input type="checkbox" name="lang" id="vue">
+                <label for="vue">Vue</label>
+            <br><br>
+
+            <label for="lang"><b>Experience Level*</b></label><br><br>
+                <select name="experience" id="experience">
+                    <option value="beginer">Beginer</option>
+                    <option value="intermediate">Intermediate</option>
+                    <option value="advanced">Advanced</option>
+                </select>
+            <br><br>
+
+            <label for="info"><b>Tell us something about you*</b></label><br><br>
+                <textarea name="info" id="info" cols="40" rows="3"></textarea>
+            <br><br>
+
+            <input type="checkbox" name="term" id="term">
+                <label for="term">I accept the <a href="">T&C</a></label>
+            <br><br>
+
+            <input type="submit" value="Submit">
+        </Form>
+    </div>
+</body>
+</html>
