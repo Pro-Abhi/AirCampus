@@ -1,4 +1,4 @@
 #Float and Position Property Assignment
 
 
-![output](https://user-images.githubusercontent.com/105339279/169651530-48549d5f-160a-4bd0-97ce-08a30f238212.jpg)
+![output](https://user-images.githubusercontent.com/105339279/169736385-61ee06ef-7cef-4be3-a6e8-9872bcc28db8.png)
