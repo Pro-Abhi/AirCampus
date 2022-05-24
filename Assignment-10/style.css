@@ -68,6 +68,8 @@ a{
   line-height: 50px;
   padding: 10px;
   background-color: rgb(165, 195, 250);
+  /* position: fixed;
+  top: 0; */
 }
 .flex{
   display: flex;
