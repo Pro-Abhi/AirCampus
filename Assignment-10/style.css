@@ -49,91 +49,102 @@ table {
 	border-spacing: 0;
 }
 
+/* ###################General##################### */
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 50px;
+}
+
+a{
+  text-decoration: none;
+}
+
+
 /* ################### Normal CSS ######################## */
 /* Header Style */
 .header{
+  width: 100%;
   line-height: 50px;
   padding: 10px;
-  background-color: cornflowerblue;
+  background-color: rgb(165, 195, 250);
 }
-.container{
-  max-width: 1000px;
-  margin: 0 auto;
+.flex{
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
-.container h1{
+.flex h1{
   font-size: 40px;
   font-weight: 700;
   color: white;
   text-transform: uppercase;
 }
-.nav{
-  width: 300px;
-}
-.nav ul{
-  list-style: none;
-  font-size: 20px;
+nav ul{
   display: flex;
-  justify-content: space-around;
+  flex-wrap: wrap;
 }
-.nav li a{
-  text-decoration: none;
-  text-transform: uppercase;
+nav li a{
+  margin-left: 30px;
+  font-size: 20px;
+  font-weight: 700;
   color: white;
-  font-weight: bold;
 }
-.nav li a:hover{
+nav li a:hover{
+  color: bisque;
   border-bottom: 3px solid crimson;
 }
 
 /* main style */
-#sec1{
-  width: 100%;
-  background-color: beige;
+#article{
+  background-color: mintcream;
+  padding: 30px 0;
 }
-.article{
+.article-flex{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
   align-items: center;
 }
 .article1{
-  width: 500px;
-  height: 650px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
+  width: 55%;
+  margin-right: 100px;
 }
 .article1 h2{
-  font-size: 35px;
+  font-size: 40px;
   font-weight: 700;
+  margin-bottom: 20px;
 }
-.article .article1 p{
-  font-size: 17px;
-  line-height: 19px;
+.article1 p{
+  font-size: 18px;
+  line-height: 23px;
 }
 
-#sec2{
-  padding: 20px 0;
+#gallery{
+  padding: 30px 0;
 }
-.gallery{
-  height: 500px;
+.gallery-flex{
+  display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
-  justify-content: space-evenly;
-  justify-content: space-around;
   align-items: center;
 }
-.gallery h1{
-  color: black;
+.gallery h2{
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 50px;
 }
-.images{
+.gallery .images{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
-.images img{
-  width: 250px;
-  height: 180px;
-  margin: 0 30px 20px 0;
+.gallery .images img{
+  width: 300px;
+  margin: 0 30px 15px 0;
 }
+
+
 
 #footer{
   background-color: lightgray;
@@ -141,23 +152,21 @@ table {
   line-height: 30px;
   margin-bottom: 10px;
 }
-.container p{
-  font-size: 20px;
-}
-.social{
-  width: 200px;
-}
-.social ul{
+.footer-flex{
   display: flex;
-  justify-content: space-around;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
-.social li i{
+.footer p a{
+  color: black;
   font-size: 20px;
+}
+.footer .social i{
+  font-size: 20px;
+  margin-left: 15px;
   color: crimson;
 }
-.social li i:hover{
-  padding: 3px;
-  border: 1px solid;
-  border-radius: 50%;
+.footer .social i:hover{
+  color: lightcoral;
 }
 

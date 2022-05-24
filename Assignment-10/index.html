@@ -12,7 +12,7 @@
 
 <body>
   <header class="header">
-    <div class="container">
+    <div class="container flex">
       <h1>Flexbox</h1>
       <nav class="nav">
         <ul>
@@ -25,8 +25,8 @@
   </header>
 
   <main>
-    <section id="sec1">
-      <article class="container article">
+    <section id="article">
+      <article class="container article article-flex">
         <div class="article1">
           <h2>This is heading</h2>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero iure impedit voluptatum aliquam error modi
@@ -51,14 +51,14 @@
             earum culpa non aliquam! Earum.</p>
         </div>
         <div class="img">
-          <img src="../Assignment-10/Images/img.jpg" alt="" width="350px">
+          <img src="../Assignment-10/Images/img.jpg" alt="" width="300px">
         </div>
       </article>
     </section>
-    <section id="sec2">
-      <div class="container gallery">
-        <h1>Gallery</h1>
-        <div class="container images">
+    <section id="gallery">
+      <div class="container gallery gallery-flex">
+        <h2>Gallery</h2>
+        <div class="images">
           <img src="/Assignment-10/Images/img1.jpeg" alt="">
           <img src="/Assignment-10/Images/img2.jpeg" alt="">
           <img src="/Assignment-10/Images/img8.jpeg" alt="">
@@ -71,16 +71,14 @@
   </main>
 
   <footer id="footer">
-    <div class="container">
-      <p>&copy; AirCampus</p>
+    <div class="container footer footer-flex">
+      <p>&copy; <a href="https://aircampus.in/">AirCampus</a></p>
       <div class="social">
-        <ul>
-          <li><a href="https://github.com/"><i class="fa-brands fa-github"></i></a></li>
-          <li><a href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></a></li>
-          <li><a href="https://in.linkedin.com/"><i class="fa-brands fa-linkedin"></i></a></li>
-          <li><a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a></li>
-          <li><a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a></li>
-        </ul>
+        <a href="https://github.com/"><i class="fa-brands fa-github"></i></a>
+        <a href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></a>
+        <a href="https://in.linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
       </div>
     </div>
   </footer>
