@@ -142,7 +142,7 @@ nav li a:hover{
   flex-wrap: wrap;
   justify-content: center;
 }
-.gallery .images img{
+.gallery  img{
   width: 300px;
   margin: 0 30px 15px 0;
 }
