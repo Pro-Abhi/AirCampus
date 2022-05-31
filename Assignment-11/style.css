@@ -127,6 +127,7 @@ i{
 .sidebar .apply{
   padding: 15px 30px;
   background-color: #5b6af5;
+  border: none;
   border-radius: 10px;
 }
 .sidebar .apply a{
@@ -170,17 +171,17 @@ i{
   background-color: #9ab7f5;
   line-height: 25px;
 }
-.right h4{
+.copy h4{
   color: white;
   font-size: 22px;
   font-weight: bold;
 }
-.left .fa-linkedin{
+.nav .fa-linkedin{
   margin-right: 20px;
   color: #0072b1;
   font-size: 25px;
 }
-.left .fa-instagram{
+.nav .fa-instagram{
   color: #e95950;
   font-size: 25px;
 }
