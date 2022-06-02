@@ -174,3 +174,77 @@ hr{
   float: right;
   clear: both;
 }
+
+/* ########## Position using position ########## */
+.contents .reletive .hero{
+  position: relative;
+  top: 35px;
+  left: 37px;
+}
+.contents .absolute .hero{
+  position: absolute;
+  top: 105px;
+  left: 67px;
+}
+
+.overflow{
+  width: 25%;
+  height: 320px;
+  padding: 20px;
+  margin-top: 30px;
+  border: 2px solid orangered;
+  flex-direction: row;
+  justify-content: center;
+  row-gap: 15px;
+  overflow: auto;
+}
+.overflow .boxes{
+  flex-direction: column;
+  row-gap: 5px;
+}
+
+/* ########## Position using flexbox ########## */
+.items{
+  width: 120px;
+  height: 100px;
+  border-radius: 10px;
+  border: 4px solid deepskyblue;
+  background-color: rgb(193, 239, 255);
+  text-align: center;
+}
+
+.column{
+  line-height: 90px;
+  font-size: 16px;
+  font-weight: bold;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+
+.flexwrap{
+  line-height: 90px;
+  font-size: 16px;
+  font-weight: bold;
+  justify-content: space-around;
+  gap: 5px;
+}
+
+.grow{
+  line-height: 90px;
+  font-size: 16px;
+  font-weight: bold;
+  justify-content: space-between;
+  gap: 5px;
+}
+.grow .item{
+  flex-grow: 2;
+}
+
+.gap{
+  line-height: 90px;
+  font-size: 16px;
+  font-weight: bold;
+  justify-content: space-around;
+  gap: 30px 60px;
+}
