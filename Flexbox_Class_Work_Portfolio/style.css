@@ -348,3 +348,61 @@ i{
   color: black;
   font-weight: 600;
 }
+
+/* ########## our works ########## */
+.work-flex{
+  flex-direction: column;
+  justify-content: space-between;
+  row-gap: 80px;
+}
+.works{
+  justify-content: space-between;
+  gap: 30px 10px;
+}
+.works img{
+  width: 32%;
+}
+
+/* ########## our blog ########## */
+.blog-flex{
+  flex-direction: column;
+  justify-content: space-between;
+  row-gap: 80px;
+}
+.blog-flex .heading h2{
+  color: white;
+}
+.blogs{
+  justify-content: space-between;
+}
+.blog{
+  width: 32%;
+  background-color: white;
+}
+.blog img{
+  width: 100%;
+}
+.blog .content{
+  padding: 25px;
+  flex-direction: column;
+  row-gap: 25px;
+}
+.blog .content .heading h3{
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+.blog .content .heading p{
+  font-size: 14px;
+  color: rgb(82, 82, 82);
+}
+.blog .content p{
+  font-size: 16px;
+  line-height: 1.2;
+  color: rgb(82, 82, 82);
+}
+.blog .content a{
+  font-size: 16px;
+  font-weight: 600;
+  color: black;
+}
