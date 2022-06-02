@@ -218,3 +218,133 @@ i{
 .article .social .svg{
   margin-left: 20px;
 }
+
+/* ########## our services ########## */
+#wrapper{
+  width: 100%;
+  padding: 70px 0;
+  background-color: rgb(133, 133, 133);
+}
+.wrap-flex{
+  flex-direction: column;
+  justify-content: space-between;
+  row-gap: 130px;
+}
+
+.heading{
+  flex-direction: column;
+  align-items: center;
+  row-gap: 10px;
+}
+.heading h2{
+  font-size: 32px;
+  font-weight: bold;
+}
+.heading .text{
+  color: orchid;
+}
+.heading p{
+  color: rgb(177, 177, 177);
+  font-size: 18px;
+}
+.services{
+  justify-content: space-between;
+  row-gap: 100px;
+}
+.service{
+  width: 31%;
+  background-color: white;
+  padding: 80px 25px 60px;
+  text-align: center;
+  row-gap: 20px;
+  position: relative;
+}
+.service h3{
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.service p{
+  color: darkgrey;
+  line-height: 1.5;
+  font-size: 16px;
+}
+.service .top{
+  position: absolute;
+  top: -25%;
+  left: 35%;
+}
+
+.service:hover{
+  background-color: black;
+  color: white;
+  font-weight: 700;
+}
+
+/* ########## banner2 ########## */
+#banner2{
+  padding: 90px 0 100px;
+  background: url(../Flexbox_Class_Work_Portfolio/Images/camera.png) no-repeat, linear-gradient(to left, #2e2d2d, #333333, #393839, #3e3e3e, #444444);
+  position: relative;
+}
+.banner2-flex{
+  flex-direction: column;
+  align-items: center;
+  gap: 15px 0;
+}
+.banner2 h2{
+  font-size: 50px;
+  color: orchid;
+  font-weight: 600;
+}
+.banner2 p{
+  font-size: 18px;
+  color: white;
+  margin-bottom: 30px;
+}
+.banner2 .btn2{
+  border: none;
+  width: 200px;
+  padding: 15px;
+  background-color: #3dcfd3;
+}
+.banner2 .btn2 i{
+  font-size: 20px;
+  margin-right: 5px;
+}
+.banner2 .btn2 a{
+  font-size: 20px;
+  color: white;
+  font-weight: 600;
+}
+
+/* ########## our client ########## */
+#wrapper2{
+  width: 100%;
+  padding: 70px 0;
+  background-color: white;
+}
+.client-flex{
+  flex-direction: column;
+  justify-content: space-between;
+  row-gap: 100px;
+}
+.client{
+  background-color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 20px;
+}
+.client img{
+  width: 15%;
+}
+.client p{
+  color: darkgrey;
+  font-size: 16px;
+}
+.client .name{
+  color: black;
+  font-weight: 600;
+}
