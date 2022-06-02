@@ -248,3 +248,36 @@ hr{
   justify-content: space-around;
   gap: 30px 60px;
 }
+
+/* ######## arrow up ######## */
+.pgup{
+  width: 70px;
+  background-color: coral;
+  padding: 10px 20px;
+  border-radius: 50px;
+  position: fixed;
+  bottom: 80px;
+  right: -20px;
+}
+.pgup i{
+  font-size: 20px;
+  color: white;
+}
+
+
+
+/* ############################ footer ############################ */
+#footer{
+  width: 100%;
+  padding: 15px 0;
+  background-color: #55bbed;
+}
+.footer-flex{
+  justify-content: center;
+  column-gap: 50px;
+}
+.footer-flex i{
+  font-size: 35px;
+  color: white;
+  font-weight: 500;
+}
