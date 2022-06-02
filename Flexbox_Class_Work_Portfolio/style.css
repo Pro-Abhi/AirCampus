@@ -478,3 +478,21 @@ i{
   text-transform: uppercase;
   cursor: pointer;
 }
+
+/* ###################### footer ###################### */
+#footer{
+  background-color: #727275;
+  padding: 50px 0;
+}
+.footer-flex{
+  flex-direction: column;
+  align-items: center;
+  row-gap: 20px;
+}
+.footer-flex .icon .svg{
+  margin-left: 25px;
+}
+.footer-flex .copy{
+  font-size: 20px;
+  color: white;
+}
