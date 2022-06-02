@@ -406,3 +406,75 @@ i{
   font-weight: 600;
   color: black;
 }
+
+/* ########## contact us ########## */
+.contact{
+  justify-content: space-around;
+}
+.con{
+  width: 30%;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+}
+.con i{
+  font-size: 50px;
+  margin-bottom: 50px;
+}
+.con h3{
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.con p{
+  line-height: 1.5;
+  color: rgb(90,90,90);
+}
+
+.contact-flex{
+  flex-direction: column;
+  justify-content: space-between;
+  row-gap: 80px;
+}
+
+.form{
+  width: 100%;
+  flex-direction: column;
+}
+.form-input{
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 25px;
+}
+.form-input [type]{
+  width: 500px;
+  padding: 10px;
+  font-size: 16px;
+}
+.msg-input{
+  flex-direction: column;
+  row-gap: 25px;
+  margin-bottom: 25px;
+}
+.msg-input [placeholder]{
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+}
+.msg-input textarea{
+  resize: none;
+}
+
+.form .btn{
+  justify-content: center;
+}
+.form .btn [type]{
+  width: 250px;
+  padding: 15px;
+  background-color: #3dcfd3;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+}
