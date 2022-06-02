@@ -1,3 +1,4 @@
 # Portfolio Website Home Page Using Flexbox
 
-![output1](https://user-images.githubusercontent.com/105339279/171533851-b4bdb662-498e-4635-9785-6b65da138abd.png)
+
+![output](https://user-images.githubusercontent.com/105339279/171540057-f9870c55-bcb2-4e32-b0cc-f7f08d11e911.png)
