@@ -468,3 +468,191 @@ ol {
 }
 
 /***** Header CSS End *****/
+
+
+/***** Main CSS Start *****/
+/* ==== banner css ==== */
+.banner {
+  position: relative;
+  width: 100%;
+  height: 1200px;
+}
+
+.banner .slide-box .slider .banner-img img {
+  width: 1349px;
+  height: 100%;
+}
+
+.slide-box {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.slider {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  height: 530px;
+}
+
+.banner-img {
+  cursor: pointer;
+  grid-template-columns: repeat(5, auto);
+  position: absolute;
+  animation: slider 10s alternate infinite;
+}
+
+@keyframes slider {
+  0% {
+    left: 0;
+  }
+
+  20% {
+    left: 0;
+  }
+
+  24% {
+    left: -1349px;
+  }
+
+  50% {
+    left: -1349px;
+  }
+
+  54% {
+    left: calc(-1349*2px);
+  }
+
+  65% {
+    left: calc(-1349*2px);
+  }
+
+  70% {
+    left: calc(-1349*3px);
+  }
+
+  85% {
+    left: calc(-1349*3px);
+  }
+
+  90% {
+    left: calc(-1349*4px);
+  }
+
+  100% {
+    left: calc(-1349*4px);
+  }
+}
+
+/* ========= products section css start ========= */
+.wrapper {
+  position: absolute;
+  z-index: 1;
+  top: 250px;
+  left: 0;
+  width: 100%;
+  padding: 20px;
+  background: linear-gradient(to bottom, transparent, #eaeded 20%)
+}
+.product-box{
+  grid-template-rows: repeat(5, auto);
+  row-gap: 30px;
+}
+
+.para{
+  background-color: white;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 18px;
+}
+.para a{
+  color: #0477e2;
+}
+.para a:hover{
+  color: #c7511f;
+  text-decoration: underline;
+}
+
+.products{
+  width: 100%;
+  height: 100%;
+  grid-template-columns: repeat(4, auto);
+  justify-content: space-between;
+  column-gap: 15px;
+}
+.comp-product .box{
+  width: 305px;
+  height: 400px;
+  background-color: #fff;
+}
+.comp-product .box h3{
+  padding: 10px 0 10px 10px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.comp-product .box .box-a{
+  height: 298px;
+  font-size: 13px;
+  margin-bottom: 20px;
+  padding-top: 5px;
+  grid-template-columns: repeat(2, auto);
+  grid-template-rows: repeat(2, auto);
+  align-items: center;
+  overflow: hidden;
+}
+.box-a > div{
+  margin: 0 10px 20px 5px;
+  display: inline-block;
+  padding: 10px;
+  cursor: pointer;
+}
+.box-a img{
+  width: 100%;
+  height: 90px;
+}
+.box .link{
+  padding: 5px 10px;
+}
+.box .link a{
+  color: #0477e2;
+}
+.box .link a:hover{
+  color: #c7511f;
+  text-decoration: underline;
+}
+
+.shop img{
+  width: 100%;
+  height: 80px;
+}
+
+.health img{
+  height: 270px;
+}
+
+.col-4{
+  grid-template-rows: repeat(2, auto);
+  justify-items: center;
+  gap: 25px;
+}
+.col-4 .signin{
+  padding: 10px;
+  background-color: #fff;
+}
+.col-4 .signin h3{
+  padding: 0;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+.col-4 .signin button{
+  width: 100%;
+  padding: 10px 0;
+  border-radius: 10px;
+  font-size: 18px;
+  background-color: #ffd620;
+  border: none;
+  cursor: pointer;
+}
